@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Community Pulse</title>
+</head>
+<body>
+    <h2>Room Locator</h2>
+    <input type="text" id="roomSearch" placeholder="Enter room name">
+    <button id="searchRoomButton">Search</button>
+    <p id="roomResult"></p>
+
+    <h2>Lost & Found</h2>
+    <input type="text" id="lostItem" placeholder="Item Name">
+    <input type="text" id="lostDescription" placeholder="Description">
+    <button id="reportLostItemButton">Report Lost Item</button>
+    <ul id="foundItems"></ul>
+
+    <h2>Transport Timetable</h2>
+    <input type="text" id="transportRoute" placeholder="Route Name">
+    <input type="text" id="transportTime" placeholder="Time">
+    <button id="addTransportButton">Add Transport</button>
+    <ul id="timetableList"></ul>
+
+    <h2>Notices</h2>
+    <input type="text" id="noticeTitle" placeholder="Notice Title">
+    <input type="text" id="noticeContent" placeholder="Notice Content">
+    <button id="postNoticeButton">Post Notice</button>
+    <ul id="noticeList"></ul>
+
+    <h2>Water Dispensers</h2>
+    <input type="text" id="dispenserLocation" placeholder="Location">
+    <select id="dispenserStatus">
+    <option value="Available">Available</option>
+    <option value="Finished">Finished</option>
+    </select>
+    <button id="addDispenserButton">Add Dispenser</button>
+
+    <h3>Update Water Dispenser Status</h3>
+    <input type="text" id="updateLocation" placeholder="Enter location">
+    <select id="updateStatus">
+    <option value="Available">Available</option>
+    <option value="Finished">Finished</option>
+    </select>
+    <button id="updateDispenserButton">Update Status</button>
+
+    <ul id="waterDispensersList"></ul>
+    <script src="index.js"></script>
+</body>
+</html>
